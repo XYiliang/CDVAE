@@ -1,0 +1,36 @@
+a_r_1_a_d_1_a_y_1_a_h_0.4_a_f_0.0_a_a_1_u_1_ur_3_ud_4_run_1
+############## generated result ##############
+cf:0.0420, cf_bin:0.03925, o1:0.04157414439748918, o2:0.042152206369672575
+real total effect: 0.05925 real o1: 0.050283860502838604 real_o2: 0.06324539212143115
+real factual - generated factual: chi square = 6876.2861328125  MMD = 0.06499676704406739
+real counter - generated counter: chi square = 5959.0849609375  MMD = 0.06468775272369384
+
+a_r_1_a_d_1_a_y_1_a_h_0.4_a_f_0.0_a_a_1_u_1_ur_3_ud_4_run_1 200 epoch
+############## generated result ##############
+cf:0.0466, cf_bin:0.0425, o1:0.045328174062042814, o2:0.04713767750358329
+real total effect: 0.05925 real o1: 0.050283860502838604 real_o2: 0.06324539212143115
+real factual - generated factual: chi square = 468.20684814453125  MMD = 0.03152702450752258
+real counter - generated counter: chi square = 914.8660278320312  MMD = 0.03191905021667481
+
+a_r_1_a_d_1_a_y_1_a_h_0.4_a_f_0.0_a_a_1_u_1_ur_3_ud_4_run_1 300 epoch
+############## generated result ##############
+cf:0.0471, cf_bin:0.0465, o1:0.0490311053578305, o2:0.046227339557485383
+real total effect: 0.05925 real o1: 0.050283860502838604 real_o2: 0.06324539212143115
+real factual - generated factual: chi square = 1624.585205078125  MMD = 0.03184030652046203
+real counter - generated counter: chi square = 2257.84765625  MMD = 0.03201333880424499
+
+a_r_1_a_d_1_a_y_1_a_h_0.4_a_f_0.0_a_a_1_u_1_ur_3_ud_4_run_1
+############## generated result ##############
+cf:0.0449, cf_bin:0.03325, o1:0.045850267434185965, o2:0.04446508502238405
+real total effect: 0.05925 real o1: 0.05187549880287311 real_o2: 0.06261376046596287
+real factual - generated factual: chi square = 570.9977416992188  MMD = 0.029400110244750977 GOWER = 0.30240598320961
+real counter - generated counter: chi square = 160.97061157226562  MMD = 0.029534542560577394 GOWER = 0.3016631305217743
+
+a_r_1_a_d_1_a_y_1_a_h_0.4_a_f_0.0_a_a_1_u_0.8_ur_3_ud_4_run_1
+############## generated result ##############
+cf:0.0385, o1:0.03930111661763564, o2:0.03815537920976769
+cf_bin:0.03375, o1_bin:0.035115722266560255, o2_bin:0.03312704768838733
+real total effect: 0.05925 real o1: 0.05187549880287311 real_o2: 0.06261376046596287
+real factual - generated factual: chi square = 785.0333251953125  MMD = 0.04345267415046692 GOWER = 0.2819993197917938
+real counter - generated counter: chi square = 8923.3388671875  MMD = 0.04284769892692566 GOWER = 0.28199970722198486
+

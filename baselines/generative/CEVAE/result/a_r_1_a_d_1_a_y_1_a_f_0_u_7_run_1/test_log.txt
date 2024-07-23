@@ -1,0 +1,5 @@
+Namespace(n_epochs=300, batch_size=256, lr=0.0001, loss_fn='BCE', break_epoch=30, act_fn='Tanh', a_y=1, a_r=1, a_d=1, a_a=1, a_f=0, u_kl=0.8, u_dim=7, h_dim=100, run=1, seed=1, gpu=0, rep=0, retrain=False, debug=True, test=True, tSNE=True, clf=True, balance=False, early_stop=True, dataset='adult', all=True, device='cuda', save_path='/share/SPEECH/xiayiliang/project/VAE/generative_models_syn/CEVAE/result/a_r_1_a_d_1_a_y_1_a_f_0_u_7_run_1')
+***data***
+cf: 0.0282
+o1: 0.03999664
+o2: 0.02274650

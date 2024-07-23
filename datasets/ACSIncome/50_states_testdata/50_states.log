@@ -1,0 +1,24 @@
+2024-05-15 12:00:05,975 - INFO - ------------------------------- ACSIncome sample 1 / 1, shift parameters: alpha = 1.5, beta = 3.0---------------------------------
+2024-05-15 12:01:30,406 - INFO - kde start evaluating
+2024-05-15 12:04:00,422 - INFO - ------------------------------- ACSIncome sample 1 / 1, shift parameters: alpha = 1.5, beta = 3.0---------------------------------
+2024-05-15 12:05:31,678 - INFO - kde start evaluating
+2024-05-17 21:42:33,163 - INFO - ratio saved
+2024-05-19 19:13:53,646 - INFO - ------------------------------- ACSIncome sample 1 / 1, shift parameters: alpha = 1.5, beta = 3.0---------------------------------
+2024-05-19 19:15:04,646 - INFO - ratio saved
+2024-05-19 19:15:04,649 - INFO - start_fitting
+2024-05-19 21:48:09,924 - INFO - ------------------------------- ACSIncome sample 1 / 1, shift parameters: alpha = 1.5, beta = 3.0---------------------------------
+2024-05-19 21:49:19,410 - INFO - ratio saved
+2024-05-19 21:49:19,414 - INFO - start_fitting
+2024-05-20 03:16:48,068 - INFO - Test  - prediction_err : 0.372	 fairness_violation : 0.055 
+2024-05-20 03:16:48,071 - INFO - Mu = 0.2500
+2024-05-20 03:16:48,071 - INFO - 
+2024-05-20 03:16:48,088 - INFO - ------------------------------- Summary: ACSIncome, 1 samples, shift parameters: alpha = 1.5, beta = 3.0---------------------------------
+2024-05-20 03:16:48,090 - INFO - Test  - prediction_err : 0.372 �� 0.000 	 fairness_violation : 0.055 �� 0.000 
+2024-05-20 09:10:05,594 - INFO - ------------------------------- ACSIncome sample 1 / 1, shift parameters: alpha = 1.5, beta = 3.0---------------------------------
+2024-05-20 09:11:19,631 - INFO - ratio saved
+2024-05-20 09:11:19,635 - INFO - start_fitting
+2024-05-20 16:24:10,665 - INFO - Test  - prediction_err : 0.370	 fairness_violation : 0.083 
+2024-05-20 16:24:10,665 - INFO - Mu = -0.8223
+2024-05-20 16:24:10,665 - INFO - 
+2024-05-20 16:24:10,680 - INFO - ------------------------------- Summary: ACSIncome, 1 samples, shift parameters: alpha = 1.5, beta = 3.0---------------------------------
+2024-05-20 16:24:10,713 - INFO - Test  - prediction_err : 0.370 �� 0.000 	 fairness_violation : 0.083 �� 0.000 
