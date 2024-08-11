@@ -1,0 +1,36 @@
+# GENERAL_OPTIONS
+seed: 42      # Experiment random seed
+use_gpu: True     # If True, train VAE on GPU
+tensorboard_log_dir: 'tensorboard'       # Tensorboard log directory
+log_dir: 'log'     # Logger log directory
+dataset_name: 'ACSIncome'     # Dataset name, including ['synthetic', 'ACSIncome']
+task: 'classification'   #  classification or regression
+source_state: ['CA']
+target_state: ['TX']
+is_transfer: True
+draw_tSNE: True
+# TRAINING_OPTIONS
+vae_epochs: 150   # Training epochs of VAE
+batch_size: 10000      # Batch size of VAE loaders
+vae_lr: 1e-4      # Learning rate of VAE
+disc_lr: 1e-5     # Learning rate of VAE discriminator for Total Correlation
+mlp_lr: 5e-5      # Learning rate of MLP classifier
+mlp_hidden_layers: [256, 512, 256]      # Hidden layers of MLP classifier
+clf_mlp_epochs: 150    # Training epochs of MLP classifier
+use_torch_mlp: True     # If True, use torch NN and will be trained on GPU. If False, use sklearn MLPClassifier
+# MODEL_Structure
+un_dim: 10     # Latent variable Un dim
+ua_dim: 50     # Latent variable Ua dim
+uy_dim: ~     # Latent variable Uy dim
+h_dim: 512      # Hidden layer dim for encoder and decoder in VAE
+h_layers: 3     # Hidden layer numbers for encoder and decoder in VAE
+act_fn: 'leakyrelu'     # Act function for encoder and decoder in VAE
+disc_h_dim: 100     # Hidden layer numbers for discriminator for Total Correlation
+disc_h_layers: 3      # Hidden layer numbers for discriminator for Total Correlation
+parm_r_xn: 1.0
+parm_r_xa: 1.0
+parm_r_y: 1.0
+parm_kl: 0.01
+parm_tc: 1.0
+parm_css: 0.0
+parm_tf: 0.1
