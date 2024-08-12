@@ -65,9 +65,7 @@ Script in ```exp/predictive_baselines_single.py``` set the pretrained model save
 
 For transfer domain predictive experiments we used 4 datasets:
  - synthetic
- - compas
- - law_school
- - adult
+ - ACSIncome
 
 To do the transfer domain experiments, run with ```--task "pred_transfer"```. Change the ```--dataset``` to train on other datasets.
 
