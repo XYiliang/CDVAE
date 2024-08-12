@@ -3,7 +3,7 @@
 [![Python-Version](https://img.shields.io/badge/Python-3.11-brightgreen)](https://github.com/XYiliang/CDVAE)
 
 <p align="center">
-    <img src="./CDVAE_framwork.png" width="500px"></img>
+    <img src="CDVAE_framwork.png" width="500px"></img>
 </p>
 
 ## Contents
